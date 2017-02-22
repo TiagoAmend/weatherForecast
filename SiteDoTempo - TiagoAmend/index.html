@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>Previsão do tempo</title>
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images/png" href="images/gota.png"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col s12">
+      <div class="input-field col s12 center" id="form">
+        <input placeholder="Concórdia, BR" id="pesquisa" type="text" class="validate autocomplete col s12 black-text">
+        <button class="waves-effect waves-light white-text btn col s12" id="clique">Pesquisar</button>
+      </div>
+      <div id="cabecalho" class="col s12">
+        <p id="data" class="col s12 center"></p>
+        <p id="cidade" class="col s12 center"></p>
+        <p id="momento" class="col s6 left"></p>  
+        <img id="icone" class="col s5">      
+      </div>
+      <div class="col s12 divide"></div>
+      <div class="col s12" id="atual"><p class="descricao center">Como está o clima no momento?</p></div>
+    </div>
+    <div class="col s12 divide"></div>
+    <div class="col s12" id="descri"><p class="descricao center col s12">Clique para visualizar como estará o clima a cada três horas para os próximos 5 dias!</p></div><ul class="collapsible col s12" data-collapsible="accordion" id="colap"></ul></div>
+
+    <footer class="page-footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h6 class="white-text">Desenvolvido por <b>Tiago Amend</b></h6>
+            <p class="grey-text text-lighten-4">Todos os dados foram retiradas de <b>https://openweathermap.org/<b></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Para mais informações acesse o site através do link ao lado
+          <a class="grey-text text-lighten-4 right" href="https://openweathermap.org/"><b>https://openweathermap.org/</b></a>
+        </div>
+      </div>
+    </footer>
+  
+  <script src="js/jquery-2.2.4.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

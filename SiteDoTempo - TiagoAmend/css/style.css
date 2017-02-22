@@ -1,0 +1,13 @@
+body {background-color: #e6eeff; margin: 0;}
+#icone {width: 100px;}
+#data {padding-top: 10px; font-size: 20px; font-weight: bolder;}
+#cidade {padding: 6px; font-size: 32px;}
+#momento {text-align: right; font-size: 22px;}
+#cabecalho {margin: 20px 0px;}
+#clique {background-color: #003366; margin: 5px;}
+#pesquisa {border-color: #003366;}
+.divide {border-top: 1px solid #003366;}
+#atual {margin-top: 30px; font-weight: bolder; font-size: 16px; margin-bottom: 30px;}
+#descri {padding: 20px; cursor: pointer; font-weight: bolder; font-size: 16px; background-color: #e6eeff; margin: 10px 0px;}
+#colap p {margin: 0; padding: 3px;}
+#painel, #footer {background-color: #003366;}
